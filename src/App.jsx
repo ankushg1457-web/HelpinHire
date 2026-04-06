@@ -68,7 +68,7 @@ export function App() {
                 Precision Hiring for Teams That Move Fast
               </h1>
               <p className="fade-up-late mt-6 max-w-xl text-lg leading-relaxed text-slate">
-                HelpinHire partners with employers to source top-tier professionals and deliver direct hires that stay, perform, and grow.
+                HelpinHire, also searched as "help in hire", partners with employers to source top-tier professionals and deliver direct hires that stay, perform, and grow.
               </p>
               <div className="fade-up-late mt-8 flex flex-wrap items-center gap-4">
                 <a

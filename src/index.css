@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-cloud text-navy antialiased;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at 15% 15%, rgba(249, 115, 22, 0.2), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(11, 31, 59, 0.2), transparent 45%),
+    linear-gradient(160deg, #ffffff 0%, #eef2f8 100%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-up {
+    animation: fadeUp 0.8s ease-out both;
+  }
+
+  .fade-up-delay {
+    animation: fadeUp 1s ease-out both;
+    animation-delay: 0.15s;
+  }
+
+  .fade-up-late {
+    animation: fadeUp 1.2s ease-out both;
+    animation-delay: 0.3s;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

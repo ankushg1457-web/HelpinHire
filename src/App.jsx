@@ -34,7 +34,9 @@ export function App() {
           aria-label="Main navigation"
         >
           <a href="#" className="flex items-center gap-2 transition hover:opacity-80">
-            <img src="/logo-icon.svg" alt="HelpinHire Logo" width="40" height="40" />
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-navy text-lg font-black text-action">
+              H
+            </div>
             <span className="hidden text-xl font-extrabold tracking-tight text-navy sm:inline">
               Helpin<span className="text-action">Hire</span>
             </span>

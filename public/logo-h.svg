@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <style>
+      .h-bg { fill: #0B1F3B; }
+      .h-letter { fill: #F97316; }
+    </style>
+  </defs>
+  
+  <!-- Navy background box with rounded corners -->
+  <rect x="5" y="5" width="90" height="90" rx="12" class="h-bg"/>
+  
+  <!-- Orange H letter -->
+  <g class="h-letter">
+    <!-- Left vertical line -->
+    <rect x="25" y="20" width="8" height="60" rx="4"/>
+    
+    <!-- Right vertical line -->
+    <rect x="67" y="20" width="8" height="60" rx="4"/>
+    
+    <!-- Horizontal middle line -->
+    <rect x="25" y="46" width="50" height="8" rx="4"/>
+  </g>
+</svg>

@@ -33,8 +33,11 @@ export function App() {
           className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6"
           aria-label="Main navigation"
         >
-          <a href="#" className="text-xl font-extrabold tracking-tight text-navy">
-            Helpin<span className="text-action">Hire</span>
+          <a href="#" className="flex items-center gap-2 transition hover:opacity-80">
+            <img src="/logo-icon.svg" alt="HelpinHire Logo" width="40" height="40" />
+            <span className="hidden text-xl font-extrabold tracking-tight text-navy sm:inline">
+              Helpin<span className="text-action">Hire</span>
+            </span>
           </a>
           <ul className="hidden items-center gap-6 md:flex">
             {navLinks.map((link) => (
